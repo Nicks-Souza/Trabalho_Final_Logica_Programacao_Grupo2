@@ -13,7 +13,7 @@ programa {
     }
   } 
 
-  funcao fatorial(inteiro quantidade){
+  funcao inteiro fatorial(inteiro quantidade){
     se(quantidade <= 1){
       retorne 1
     } senao {
@@ -27,7 +27,7 @@ programa {
     leia(opcao)
     escolha(opcao){
         caso 1:
-          escreva("Insira a quantidade de numeros da s�rie Fibonacci: ")
+          escreva("Insira a quantidade de numeros da série Fibonacci: ")
           leia(quantidade)
           para(inteiro i = 1; i < quantidade + 1; i++){
             escreva(fibonacci(i), " ")
@@ -36,8 +36,20 @@ programa {
         caso 2:
           escreva("Insira um numero para o calculo do Fatorial: ")
           leia(quantidade)
-          escreva("O fatorial �: ", fatorial(quantidade))
+          escreva("O fatorial é: ", fatorial(quantidade))
           pare
     }
   }
 }
+
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 379; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */

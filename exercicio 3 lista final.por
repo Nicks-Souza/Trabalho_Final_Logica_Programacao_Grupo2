@@ -11,10 +11,10 @@ programa {
 
     para(i = 0; i < tamanhoFrase; i++){
       letra = txt.obter_caracter(frase, i)
-      se(letra == "a" ou letra == "e" ou letra == "i" ou letra == "o" ou letra == "u"){
+      se(letra == 'a' ou letra == 'e' ou letra == 'i' ou letra == 'o' ou letra == 'u'){
           vogais++
           caracteres++
-        } senao se (letra != " "){
+        } senao se (letra != ' '){
           consoantes++
           caracteres++
         }
@@ -29,3 +29,15 @@ programa {
     verificarFrase(frase)
   }
 }
+
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 778; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
